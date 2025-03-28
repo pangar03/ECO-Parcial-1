@@ -1,0 +1,61 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+    background-color: aliceblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    min-height: 10vh;
+    padding: 1.5rem;
+    padding: 2rem;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#game-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: none;
+}
+
+#day-button {
+    background-color: rgb(127, 190, 239);
+}
+
+#night-button {
+    color: white;
+    background-color: rgb(27, 6, 47);
+}
+
+#player-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
